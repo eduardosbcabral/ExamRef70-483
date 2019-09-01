@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aulas.Parte1
+namespace Aulas.Parte01
 {
     class TiposInteiros : IAulaItem
     {

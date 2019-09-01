@@ -1,4 +1,4 @@
-﻿using Aulas.Parte1;
+﻿using Aulas.Parte01;
 using System;
 using System.Collections.Generic;
 
@@ -70,11 +70,11 @@ namespace Aulas
             {
                 new MenuItem("Tipos de Valor", typeof(TiposDeValor)),
                 new MenuItem("Tipos Inteiros", typeof(TiposInteiros)),
-                //new MenuItem("Ponto Flututante", typeof(PontoFlutuante)),
-                //new MenuItem("Decimal", typeof(Decimal)),
-                //new MenuItem("Booleanos", typeof(Booleanos)),
-                //new MenuItem("Estruturas", typeof(Estruturas)),
-                //new MenuItem("Enumeracoes", typeof(Enumeracoes)),
+                new MenuItem("Ponto Flututante", typeof(PontoFlutuante)),
+                new MenuItem("Decimal", typeof(Parte01.Decimal)),
+                new MenuItem("Booleanos", typeof(Booleanos)),
+                new MenuItem("Estruturas", typeof(Estruturas)),
+                new MenuItem("Enumeracoes", typeof(Enumeracoes)),
                 //new MenuItem("Tipos de Refêrencia", typeof(TiposDeReferencia)),
                 //new MenuItem("Classes", typeof(Classes)),
                 //new MenuItem("Interfaces", typeof(Interfaces)),
