@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aulas.Parte01
+namespace Aulas.Parte01.Aula02
 {
     public class Decimal : IAulaItem
     {

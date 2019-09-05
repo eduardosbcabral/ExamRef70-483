@@ -1,9 +1,7 @@
-﻿using Aulas.Parte01._7Enums;
+﻿using Aulas.Parte01.Aula02._5Enums;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Aulas.Parte01
+namespace Aulas.Parte01.Aula02
 {
     public class Enumeracoes : IAulaItem
     {

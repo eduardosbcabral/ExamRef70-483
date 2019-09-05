@@ -1,4 +1,7 @@
 ﻿using Aulas.Parte01;
+using Aulas.Parte01.Aula01;
+using Aulas.Parte01.Aula02;
+using Aulas.Parte01.Aula03;
 using System;
 using System.Collections.Generic;
 
@@ -70,18 +73,18 @@ namespace Aulas
             {
                 new MenuItem("Tipos de Valor", typeof(TiposDeValor)),
                 new MenuItem("Tipos Inteiros", typeof(TiposInteiros)),
-                new MenuItem("Ponto Flututante", typeof(PontoFlutuante)),
-                new MenuItem("Decimal", typeof(Parte01.Decimal)),
+                new MenuItem("Ponto Flutuante", typeof(PontoFlutuante)),
+                new MenuItem("Decimal", typeof(Parte01.Aula02.Decimal)),
                 new MenuItem("Booleanos", typeof(Booleanos)),
                 new MenuItem("Estruturas", typeof(Estruturas)),
                 new MenuItem("Enumeracoes", typeof(Enumeracoes)),
-                //new MenuItem("Tipos de Refêrencia", typeof(TiposDeReferencia)),
-                //new MenuItem("Classes", typeof(Classes)),
-                //new MenuItem("Interfaces", typeof(Interfaces)),
-                //new MenuItem("Delegates", typeof(Delegates)),
-                //new MenuItem("Objetos", typeof(Objetos)),
-                //new MenuItem("Dinâmicos", typeof(Dinamicos)),
-                //new MenuItem("Strings", typeof(Strings)),
+                new MenuItem("Tipos de Refêrencia", typeof(TiposDeReferencia)),
+                new MenuItem("Classes", typeof(Classes)),
+                new MenuItem("Interfaces", typeof(Interfaces)),
+                new MenuItem("Delegates", typeof(Delegates)),
+                new MenuItem("Objetos", typeof(Objetos)),
+                new MenuItem("Dinâmicos", typeof(Dinamicos)),
+                new MenuItem("Strings", typeof(Strings)),
                 //new MenuItem("Metodos", typeof(Metodos)),
                 //new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
                 //new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),

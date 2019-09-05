@@ -1,7 +1,7 @@
-﻿using Aulas.Parte01._6Estruturas;
+﻿using Aulas.Parte01.Aula02._4Estruturas;
 using System;
 
-namespace Aulas.Parte01
+namespace Aulas.Parte01.Aula02
 {
     public class Estruturas : IAulaItem
     {

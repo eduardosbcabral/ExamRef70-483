@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aulas.Parte01._7Enums
+namespace Aulas.Parte01.Aula02._5Enums
 {
     // Flag attribute
     [Flags]
