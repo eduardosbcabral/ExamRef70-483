@@ -2,6 +2,7 @@
 using Aulas.Parte01.Aula01;
 using Aulas.Parte01.Aula02;
 using Aulas.Parte01.Aula03;
+using Aulas.Parte01.Aula04;
 using System;
 using System.Collections.Generic;
 
@@ -85,11 +86,11 @@ namespace Aulas
                 new MenuItem("Objetos", typeof(Objetos)),
                 new MenuItem("Dinâmicos", typeof(Dinamicos)),
                 new MenuItem("Strings", typeof(Strings)),
-                //new MenuItem("Metodos", typeof(Metodos)),
-                //new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
-                //new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
-                //new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),
-                //new MenuItem("Propriedades Indexadas", typeof(PropriedadesIndexadas)),
+                new MenuItem("Metodos", typeof(Metodos)),
+                new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
+                new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
+                new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),
+                new MenuItem("Propriedades Indexadas", typeof(PropriedadesIndexadas)),
                 //new MenuItem("Sobrecargas", typeof(Sobrecargas)),
                 //new MenuItem("Métodos Substituidos", typeof(MetodosSubstituidos)),
                 //new MenuItem("Boxing", typeof(Boxing)),
