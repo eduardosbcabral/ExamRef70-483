@@ -1,8 +1,10 @@
-﻿using Aulas.Parte01;
-using Aulas.Parte01.Aula01;
+﻿using Aulas.Parte01.Aula01;
 using Aulas.Parte01.Aula02;
 using Aulas.Parte01.Aula03;
 using Aulas.Parte01.Aula04;
+using Aulas.Parte01.Aula05;
+using Aulas.Parte02.Aula01;
+using Aulas.Parte02.Aula02;
 using System;
 using System.Collections.Generic;
 
@@ -91,13 +93,13 @@ namespace Aulas
                 new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
                 new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),
                 new MenuItem("Propriedades Indexadas", typeof(PropriedadesIndexadas)),
-                //new MenuItem("Sobrecargas", typeof(Sobrecargas)),
-                //new MenuItem("Métodos Substituidos", typeof(MetodosSubstituidos)),
-                //new MenuItem("Boxing", typeof(Boxing)),
-                //new MenuItem("Unboxing", typeof(Unboxing)),
-                //new MenuItem("Conversoes Implícitas", typeof(ConversoesImplicitas)),
-                //new MenuItem("Conversoes Explícitas", typeof(ConversoesExplicitas)),
-                //new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
+                new MenuItem("Sobrecargas", typeof(Sobrecargas)),
+                new MenuItem("Métodos Substituidos", typeof(MetodosSubstituidos)),
+                new MenuItem("Boxing", typeof(Boxing)),
+                new MenuItem("Unboxing", typeof(Unboxing)),
+                new MenuItem("Conversoes Implícitas", typeof(ConversoesImplicitas)),
+                new MenuItem("Conversoes Explícitas", typeof(ConversoesExplicitas)),
+                new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
                 //new MenuItem("Operadores de Conversão", typeof(OperadoresDeConversao)),
                 //new MenuItem("Métodos Auxiliares de Conversão", typeof(MetodosAuxiliares)),
                 //new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),

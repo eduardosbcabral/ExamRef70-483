@@ -1,4 +1,6 @@
-﻿namespace Aulas.Parte01.Aula03._1TiposDeReferencia
+﻿using System;
+
+namespace Aulas.Parte01.Aula03._1TiposDeReferencia
 {
     class Cliente
     {

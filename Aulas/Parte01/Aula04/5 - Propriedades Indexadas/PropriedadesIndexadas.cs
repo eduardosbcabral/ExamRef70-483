@@ -10,7 +10,7 @@ namespace Aulas.Parte01.Aula04
             var sala = new Sala();
             sala["D01"] = new ClienteCinema("Maria de Souza");
             sala["D02"] = new ClienteCinema("José da Silva");
-
+            Console.WriteLine(sala["D01"]);
             sala.ImprimirReservas();
         }
     }
