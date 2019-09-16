@@ -6,6 +6,7 @@ using Aulas.Parte01.Aula05;
 using Aulas.Parte02.Aula01;
 using Aulas.Parte02.Aula02;
 using Aulas.Parte02.Aula03;
+using Aulas.Parte02.Aula04;
 using System;
 using System.Collections.Generic;
 
@@ -103,9 +104,9 @@ namespace Aulas
                 new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
                 new MenuItem("Operadores de Conversão", typeof(OperadoresDeConversao)),
                 new MenuItem("Métodos Auxiliares de Conversão", typeof(MetodosAuxiliares)),
-                //new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),
-                //new MenuItem("Conversões de Dynamic", typeof(ConversoesDeDynamic)),
-                //new MenuItem("Resolucão de Sobrecarga", typeof(ResolucaoSobrecarga)),
+                new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),
+                new MenuItem("Conversões de Dynamic", typeof(ConversoesDeDynamic)),
+                new MenuItem("Resolucão de Sobrecarga", typeof(ResolucaoDeSobrecarga)),
                 //new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
                 //new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
             };
