@@ -7,6 +7,7 @@ using Aulas.Parte02.Aula01;
 using Aulas.Parte02.Aula02;
 using Aulas.Parte02.Aula03;
 using Aulas.Parte02.Aula04;
+using Aulas.Parte02.Aula05;
 using System;
 using System.Collections.Generic;
 
@@ -107,8 +108,8 @@ namespace Aulas
                 new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),
                 new MenuItem("Conversões de Dynamic", typeof(ConversoesDeDynamic)),
                 new MenuItem("Resolucão de Sobrecarga", typeof(ResolucaoDeSobrecarga)),
-                //new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
-                //new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
+                new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
+                new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
             };
         }
     }

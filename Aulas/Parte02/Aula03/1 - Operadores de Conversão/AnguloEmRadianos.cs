@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Aulas.Parte02.Aula03._4Operadores_de_Conversão
+namespace Aulas.Parte02.Aula03._1Operadores_de_Conversão
 {
     struct AnguloEmRadianos
     {

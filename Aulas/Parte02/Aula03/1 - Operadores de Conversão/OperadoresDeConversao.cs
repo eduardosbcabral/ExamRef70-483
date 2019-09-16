@@ -1,4 +1,4 @@
-﻿using Aulas.Parte02.Aula03._4Operadores_de_Conversão;
+﻿using Aulas.Parte02.Aula03._1Operadores_de_Conversão;
 using System;
 
 namespace Aulas.Parte02.Aula03
